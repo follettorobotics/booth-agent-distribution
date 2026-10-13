@@ -1,10 +1,10 @@
 {
   "format": 1,
   "model": "g2donut",
-  "version": "1.1.162",
-  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.162-g2donut/booth-agent-g2donut-1.1.162.zip",
-  "sha256": "b279793c9a1baa749768a0970d19f2d6af7d5f890bcaac48fb8c433f1094a468",
-  "size": 75175999,
-  "releaseNotes": "---ko---\n업데이트할 때 기다리는 시간이 줄었습니다.\n- 부스 프로그램을 업데이트하기 전에 메뉴를 닫고 기다리는 시간의 기본값이 6분에서 30초로 바뀌었습니다. 컨트롤 패널 2.0.0 의 소프트웨어 업데이트 화면에서 30초, 1분, 3분, 6분 중에 고를 수 있습니다.\n- 이미 업데이트 설정을 바꾼 적이 있는 부스는 6분으로 남아 있습니다. 컨트롤 패널에서 30초를 한 번 눌러 주세요.\n- 기다리는 동안 컨트롤 패널 2.0.0 의 [지금 업데이트]를 누르면 남은 시간을 기다리지 않고 바로 업데이트합니다. 주문이 들어와 있으면 업데이트를 미룹니다.\n---en---\nUpdates wait less.\n- The time the booth program keeps the menu closed before it restarts for an update is 30 seconds by default instead of 6 minutes. Control panel 2.0.0 lets you pick 30 s, 1 min, 3 min or 6 min on its Software update card.\n- A booth whose update settings were changed before keeps 6 minutes: press 30 s once in the control panel.\n- During that wait, Update now in control panel 2.0.0 updates at once, without the rest of the wait. If an order has come in, the update is postponed.",
-  "releasedAt": "2026-10-13T04:11:56Z"
+  "version": "1.1.163",
+  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.163-g2donut/booth-agent-g2donut-1.1.163.zip",
+  "sha256": "b9c105136e56b60d161a7cd8dcfebb1621a767ba69aeb0b1e5e5252eec4e51cc",
+  "size": 75177279,
+  "releaseNotes": "---ko---\n도넛 박스 리프트의 최대 박스 수가 커졌습니다.\n- 새로 설치하는 부스는 리프트의 최대 박스 수가 20입니다(전에는 10). 이 값은 카운트가 셀 수 있는 상한입니다. 실제로 넣을 수 있는 박스 수는 리프트 길이에 따릅니다.\n- 이미 설치된 부스는 저장된 값을 그대로 씁니다. 컨트롤 패널의 설정 > 컨트롤 보드 (앞) 에서 [패키지 디스펜서: 최대 박스 수]를 20으로 바꾸고 저장한 뒤, 카운트를 한 번 해 주세요.\n---en---\nThe donut box lift takes a higher maximum.\n- On a newly installed booth the lift's maximum is 20 boxes (it was 10). It is the most a Count can count; how many boxes really fit depends on the lift's length.\n- A booth that is already installed keeps its saved value: in the control panel under Settings > Control Board (Front) set \"Package Dispenser: Max Boxes\" to 20 and save, then run a Count once.",
+  "releasedAt": "2026-10-13T05:06:05Z"
 }
