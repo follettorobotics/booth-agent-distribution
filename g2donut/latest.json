@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "model": "g2donut",
+  "version": "1.1.161",
+  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.161-g2donut/booth-agent-g2donut-1.1.161.zip",
+  "sha256": "bb22b0cefe52cc10d591a9240867a562f37e4c56c39426a83c78594a0cae7a5f",
+  "size": 75176533,
+  "releaseNotes": "---ko---\n도넛 부스 프로그램의 첫 정식 버전입니다.\n새 버전은 컨트롤 패널의 [소프트웨어 업데이트]에서 설치합니다. 설치 후 문제가 있으면 이전 버전으로 스스로 되돌립니다.\n키오스크에서 한 번에 결제한 주문은 하나의 주문으로 받습니다. 일부를 받을 수 없으면 나머지도 만들지 않습니다.\n부스가 키오스크에 남은 도넛 상자 수를 알려 줍니다.\n도넛 상자를 내어 드리는 시간이 짧아졌습니다.\n컨트롤 패널에서 문을 열거나 닫으면, 장치가 응답하지 않아도 2분 안에 결과를 알려 줍니다.\n---en---\nThe first regular version of the donut booth program.\nNew versions are installed from Software update in the control panel. If something is wrong after an install, the booth goes back to the previous version by itself.\nAn order paid in one payment at the kiosk is taken as one order. If a part of it cannot be taken, the rest is not made either.\nThe booth tells the kiosk how many donut boxes are left.\nHanding over a donut box takes less time.\nOpening or closing a door from the control panel is answered within two minutes, also when the device does not respond.",
+  "releasedAt": "2026-10-13T01:14:16Z"
+}
