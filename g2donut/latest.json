@@ -1,10 +1,10 @@
 {
   "format": 1,
   "model": "g2donut",
-  "version": "1.1.163",
-  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.163-g2donut/booth-agent-g2donut-1.1.163.zip",
-  "sha256": "b9c105136e56b60d161a7cd8dcfebb1621a767ba69aeb0b1e5e5252eec4e51cc",
-  "size": 75177279,
-  "releaseNotes": "---ko---\n도넛 박스 리프트의 최대 박스 수가 커졌습니다.\n- 새로 설치하는 부스는 리프트의 최대 박스 수가 20입니다(전에는 10). 이 값은 카운트가 셀 수 있는 상한입니다. 실제로 넣을 수 있는 박스 수는 리프트 길이에 따릅니다.\n- 이미 설치된 부스는 저장된 값을 그대로 씁니다. 컨트롤 패널의 설정 > 컨트롤 보드 (앞) 에서 [패키지 디스펜서: 최대 박스 수]를 20으로 바꾸고 저장한 뒤, 카운트를 한 번 해 주세요.\n---en---\nThe donut box lift takes a higher maximum.\n- On a newly installed booth the lift's maximum is 20 boxes (it was 10). It is the most a Count can count; how many boxes really fit depends on the lift's length.\n- A booth that is already installed keeps its saved value: in the control panel under Settings > Control Board (Front) set \"Package Dispenser: Max Boxes\" to 20 and save, then run a Count once.",
-  "releasedAt": "2026-10-13T05:06:05Z"
+  "version": "1.1.164",
+  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.164-g2donut/booth-agent-g2donut-1.1.164.zip",
+  "sha256": "0eb66d922d80edc2e3a9d3f252b8834ca02d512baa84520fe2fe6851e7e4d64b",
+  "size": 75178886,
+  "releaseNotes": "---ko---\n도넛 리프트의 카운트가 바뀌었습니다.\n- 카운트는 리프트가 맨 위(보충이 끝난 위치)에 있을 때만 시작합니다. 맨 위가 아닐 때 카운트를 누르면(패널 버튼, 부스의 카운트 스위치 모두) 리프트는 움직이지 않고, 리프트 상태 옆에 '카운트 불가 · 먼저 보충'이 30초 동안 표시됩니다. 보충을 누른 뒤 카운트를 누르세요.\n- 보충 뒤 박스를 싣는 동안 리프트가 맨 위에서 살짝 내려갔으면, 카운트가 리프트를 조금(최대 박스 1/4 칸) 올려 맨 위를 다시 찾은 뒤 셉니다.\n- 한 칸 상승·하강 뒤에도 보충 → 카운트 순서로 해 주세요. 알람 '도넛 박스 수량 확인 필요'의 설명도 그렇게 바뀌었습니다.\n- 바뀐 알람 설명이 이미 설치된 부스에도 적용됩니다.\n- 컨트롤 패널 2.0.1과 함께 쓰세요. 패널을 먼저 업데이트하세요.\n---en---\nThe donut lift's Count has changed.\n- Count starts only with the lift at the top, where a Refill leaves it. Pressed anywhere else (the panel button or the booth's Count switch), the lift does not move and \"Count refused · Refill first\" shows beside the lift state for 30 s. Press Refill, then Count.\n- If the lift slipped slightly below the top while boxes were loaded after a Refill, Count raises it a little (at most a quarter box) to find the top again, then counts.\n- After a one-step move up or down, also press Refill, then Count. The description of the alarm \"Donut box count check needed\" says so now.\n- Re-worded alarm descriptions now reach booths that are already installed.\n- Use with control panel 2.0.1. Update the panel first.",
+  "releasedAt": "2026-10-14T02:05:24Z"
 }
