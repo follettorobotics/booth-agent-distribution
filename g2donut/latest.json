@@ -1,10 +1,10 @@
 {
   "format": 1,
   "model": "g2donut",
-  "version": "1.1.164",
-  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.164-g2donut/booth-agent-g2donut-1.1.164.zip",
-  "sha256": "0eb66d922d80edc2e3a9d3f252b8834ca02d512baa84520fe2fe6851e7e4d64b",
-  "size": 75178886,
-  "releaseNotes": "---ko---\n도넛 리프트의 카운트가 바뀌었습니다.\n- 카운트는 리프트가 맨 위(보충이 끝난 위치)에 있을 때만 시작합니다. 맨 위가 아닐 때 카운트를 누르면(패널 버튼, 부스의 카운트 스위치 모두) 리프트는 움직이지 않고, 리프트 상태 옆에 '카운트 불가 · 먼저 보충'이 30초 동안 표시됩니다. 보충을 누른 뒤 카운트를 누르세요.\n- 보충 뒤 박스를 싣는 동안 리프트가 맨 위에서 살짝 내려갔으면, 카운트가 리프트를 조금(최대 박스 1/4 칸) 올려 맨 위를 다시 찾은 뒤 셉니다.\n- 한 칸 상승·하강 뒤에도 보충 → 카운트 순서로 해 주세요. 알람 '도넛 박스 수량 확인 필요'의 설명도 그렇게 바뀌었습니다.\n- 바뀐 알람 설명이 이미 설치된 부스에도 적용됩니다.\n- 컨트롤 패널 2.0.1과 함께 쓰세요. 패널을 먼저 업데이트하세요.\n---en---\nThe donut lift's Count has changed.\n- Count starts only with the lift at the top, where a Refill leaves it. Pressed anywhere else (the panel button or the booth's Count switch), the lift does not move and \"Count refused · Refill first\" shows beside the lift state for 30 s. Press Refill, then Count.\n- If the lift slipped slightly below the top while boxes were loaded after a Refill, Count raises it a little (at most a quarter box) to find the top again, then counts.\n- After a one-step move up or down, also press Refill, then Count. The description of the alarm \"Donut box count check needed\" says so now.\n- Re-worded alarm descriptions now reach booths that are already installed.\n- Use with control panel 2.0.1. Update the panel first.",
-  "releasedAt": "2026-10-14T02:05:24Z"
+  "version": "1.1.165",
+  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.165-g2donut/booth-agent-g2donut-1.1.165.zip",
+  "sha256": "7f3d0b62dab1ab9d93e99842d642eb343c5c63be8c0d058cd8b47656f2b4ebe1",
+  "size": 75179216,
+  "releaseNotes": "---ko---\n도넛 리프트가 비면 알람이 바로 납니다.\n- 리프트의 박스 수가 0이 되면 알람 '도넛 박스 부족'(BTHE00000330)이 바로 생기고 서버와 모바일 앱에도 전달됩니다. 카운트, 마지막 박스 판매, 수량 수정 어느 것으로 0이 되어도 같습니다. 지금까지는 도넛만 품절로 바뀌고 알람은 없었습니다.\n- 박스를 보충하고 카운트해서 박스 수가 0보다 커지면 알람은 저절로 사라집니다. 0개인 동안에는 해제해도 다시 나타납니다.\n- 컨트롤 패널은 2.0.2 그대로 쓰면 됩니다.\n---en---\nAn empty donut lift now raises an alarm at once.\n- When the lift's box count reaches 0, the alarm \"도넛 박스 부족\" (BTHE00000330, donut boxes short) is raised at once and reaches the server and the mobile app, whether a Count, the last box sold or a count correction brought it to 0. Until now donuts only went sold out, with no alarm.\n- The alarm clears by itself once boxes are refilled and counted above 0. While the count stays 0, a cleared alarm comes back.\n- Control panel 2.0.2 stays as it is.",
+  "releasedAt": "2026-10-15T02:39:39Z"
 }
