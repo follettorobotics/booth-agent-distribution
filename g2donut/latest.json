@@ -1,10 +1,10 @@
 {
   "format": 1,
   "model": "g2donut",
-  "version": "1.1.165",
-  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.165-g2donut/booth-agent-g2donut-1.1.165.zip",
-  "sha256": "7f3d0b62dab1ab9d93e99842d642eb343c5c63be8c0d058cd8b47656f2b4ebe1",
-  "size": 75179216,
-  "releaseNotes": "---ko---\n도넛 리프트가 비면 알람이 바로 납니다.\n- 리프트의 박스 수가 0이 되면 알람 '도넛 박스 부족'(BTHE00000330)이 바로 생기고 서버와 모바일 앱에도 전달됩니다. 카운트, 마지막 박스 판매, 수량 수정 어느 것으로 0이 되어도 같습니다. 지금까지는 도넛만 품절로 바뀌고 알람은 없었습니다.\n- 박스를 보충하고 카운트해서 박스 수가 0보다 커지면 알람은 저절로 사라집니다. 0개인 동안에는 해제해도 다시 나타납니다.\n- 컨트롤 패널은 2.0.2 그대로 쓰면 됩니다.\n---en---\nAn empty donut lift now raises an alarm at once.\n- When the lift's box count reaches 0, the alarm \"도넛 박스 부족\" (BTHE00000330, donut boxes short) is raised at once and reaches the server and the mobile app, whether a Count, the last box sold or a count correction brought it to 0. Until now donuts only went sold out, with no alarm.\n- The alarm clears by itself once boxes are refilled and counted above 0. While the count stays 0, a cleared alarm comes back.\n- Control panel 2.0.2 stays as it is.",
-  "releasedAt": "2026-10-15T02:39:39Z"
+  "version": "1.1.166",
+  "zipUrl": "https://github.com/follettorobotics/booth-agent-distribution/releases/download/v1.1.166-g2donut/booth-agent-g2donut-1.1.166.zip",
+  "sha256": "eda650562c411160ea8d73042b9d1c32eab9e0241d95c598dc0d0259ecaf294a",
+  "size": 75184109,
+  "releaseNotes": "---ko---\n제조 일시정지와 음료 3잔씩 만들기가 추가되었습니다.\n- 컨트롤 패널 대시보드의 '일시정지'로 제조를 잠시 멈출 수 있습니다. 진행 중인 제조는 끝까지 진행되고, 아직 시작하지 않은 음료와 도넛은 '재개'를 누를 때까지 기다립니다. 일시정지 중에는 키오스크와 모바일 앱의 새 주문을 받지 않습니다. 10분이 지나면 알람 '제조 일시정지 중'(BTHW00000348)이 생기고 모바일 앱에도 전달됩니다. 부스 프로그램이 다시 시작되면 일시정지는 풀립니다.\n- 한 주문은 음료를 3잔씩 만듭니다. 3잔이 도어에 나온 뒤 우유·시럽·컵을 다시 확인하고 다음 음료를 만듭니다. 앱 주문도 같습니다.\n- 우유가 떨어지는 등 지금 만들 수 없는 음료만 기다리고, 같은 주문의 다른 음료는 먼저 만듭니다.\n- 이미 만들기 시작한 음료는 그 사이 시럽 센서가 부족으로 바뀌어도 정상 판매로 처리됩니다(알람은 그대로 생깁니다).\n- 일시정지 중 도넛 주문의 '픽업 포기'를 누르면 4번 도어가 닫히고 리프트가 대기 상태로 돌아옵니다.\n- 컨트롤 패널 2.0.3과 함께 쓰세요. 패널을 먼저 업데이트하세요.\n---en---\nProduction pause, and drinks made three at a time.\n- 'Pause' on the control panel dashboard pauses production: what is being made finishes, drinks and donuts not started yet wait until 'Resume'. While paused, no new order is taken from the kiosk or the mobile app. After 10 minutes the alarm 'Production paused' (BTHW00000348) is raised and reaches the mobile app. A restart of the booth program lifts the pause.\n- An order is made three drinks at a time: once three are at their doors, milk, syrup and cups are checked again before the next drinks. App orders too.\n- A drink that cannot be made now (milk out, for example) waits, and the other drinks of the order are made first.\n- A drink already started is a normal sale even if its syrup sensor reads low meanwhile (the alarm is still raised).\n- 'Abandon pickup' during a pause closes door 4 and returns the lift to idle.\n- Use with control panel 2.0.3. Update the panel first.",
+  "releasedAt": "2026-10-15T06:52:21Z"
 }
